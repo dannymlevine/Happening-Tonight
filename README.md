@@ -16,4 +16,4 @@ The rating for each bar/club would be an aggregate of the all the reviews posted
 The app will use a database in order to save the rating of each of the 
 
 
-To create this app I will be using xcode 7.0 as the IDE and swift as the programming language.
+To create this app I will be using xcode 7 as the IDE and swift as the programming language.
