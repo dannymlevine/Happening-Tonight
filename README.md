@@ -4,7 +4,7 @@ Individual Senior Project
 ### Nightlife App
 
 The concept for the nightlife app is to be an app that bars and clubs could use to show: 
-how long the lines are at each establishment at any given time,
+how long the wait is at any given time,
 what the cover charge is,
 how full the bar/club is,
 prices of food or drinks,
