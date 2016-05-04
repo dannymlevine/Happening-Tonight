@@ -32,58 +32,58 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B610CD7F1CBBC8BD007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDD91CDAA03D007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F435027A1A6791B200038A29;
 			remoteInfo = OAuthSwift;
 		};
-		B610CD811CBBC8BD007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDDB1CDAA03D007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = F451E3C5195B8CD80051434C;
 			remoteInfo = OAuthSwiftDemo;
 		};
-		B610CD831CBBC8BD007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDDD1CDAA03D007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
 			remoteInfo = OAuthSwiftOSX;
 		};
-		B610CD851CBBC8BD007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDDF1CDAA03D007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
 			remoteInfo = OAuthSwiftOSXDemo;
 		};
-		B610CD871CBBC8BD007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDE11CDAA03D007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
 			remoteInfo = OAuthSwiftTVOS;
 		};
-		B610CD891CBBC8BD007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDE31CDAA03D007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C40890C01C11B37000E3146A;
 			remoteInfo = OAuthSwiftWatchOS;
 		};
-		B610CD8B1CBBC8BD007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDE51CDAA03D007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
 			remoteInfo = OAuthSwiftTests;
 		};
-		B610CD8D1CBD20DC007D7FBD /* PBXContainerItemProxy */ = {
+		B610CDE71CDAA0BD007D7FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = F43502791A6791B200038A29;
 			remoteInfo = OAuthSwift;
@@ -117,18 +117,18 @@
 		81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		B60A89AE1CAAB63E00CC46A3 /* FactualSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FactualSDK.framework; sourceTree = "<group>"; };
-		B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "../OAuthSwift-master/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
 		B610CD8F1CD70745007D7FBD /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		B610CD911CD70BDD007D7FBD /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		B610CD931CD74B46007D7FBD /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
 		B610CD951CD866A1007D7FBD /* cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
 		B610CD971CD9FE3D007D7FBD /* BarPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPage.swift; sourceTree = "<group>"; };
+		B610CDB61CDA9F72007D7FBD /* HappeningTonight-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HappeningTonight-Bridging-Header.h"; sourceTree = "<group>"; };
+		B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "OAuthSwift-master/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
 		B644C9661CA15B46004F0675 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		B644C9671CA15B46004F0675 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		B644C96E1CA15C7B004F0675 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		B644C9711CA16664004F0675 /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
 		B644C9731CA3E21C004F0675 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
-		B6D011561CAB67B400BD62D6 /* ParseStarterProject-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ParseStarterProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		B6D011571CB2A24C00BD62D6 /* 035.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 035.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,7 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				814C3AC81B69877600E307BB /* Images.xcassets */,
-				B6D011561CAB67B400BD62D6 /* ParseStarterProject-Bridging-Header.h */,
+				B610CDB61CDA9F72007D7FBD /* HappeningTonight-Bridging-Header.h */,
 				814C3AC91B69877600E307BB /* Info.plist */,
 			);
 			path = Resources;
@@ -202,7 +202,7 @@
 		81BA816A1A49DB5600E65899 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */,
+				B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */,
 				B60A89AE1CAAB63E00CC46A3 /* FactualSDK.framework */,
 				B644C9711CA16664004F0675 /* ParseFacebookUtilsV4.framework */,
 				B644C9661CA15B46004F0675 /* FBSDKCoreKit.framework */,
@@ -226,16 +226,16 @@
 			name = "System Frameworks";
 			sourceTree = "<group>";
 		};
-		B610CD761CBBC8BD007D7FBD /* Products */ = {
+		B610CDD01CDAA03D007D7FBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B610CD801CBBC8BD007D7FBD /* OAuthSwift.framework */,
-				B610CD821CBBC8BD007D7FBD /* OAuthSwiftDemo.app */,
-				B610CD841CBBC8BD007D7FBD /* OAuthSwift.framework */,
-				B610CD861CBBC8BD007D7FBD /* OAuthSwiftOSXDemo.app */,
-				B610CD881CBBC8BD007D7FBD /* OAuthSwift.framework */,
-				B610CD8A1CBBC8BD007D7FBD /* OAuthSwift.framework */,
-				B610CD8C1CBBC8BD007D7FBD /* OAuthSwiftTests.xctest */,
+				B610CDDA1CDAA03D007D7FBD /* OAuthSwift.framework */,
+				B610CDDC1CDAA03D007D7FBD /* OAuthSwiftDemo.app */,
+				B610CDDE1CDAA03D007D7FBD /* OAuthSwift.framework */,
+				B610CDE01CDAA03D007D7FBD /* OAuthSwiftOSXDemo.app */,
+				B610CDE21CDAA03D007D7FBD /* OAuthSwift.framework */,
+				B610CDE41CDAA03D007D7FBD /* OAuthSwift.framework */,
+				B610CDE61CDAA03D007D7FBD /* OAuthSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,7 +255,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B610CD8E1CBD20DC007D7FBD /* PBXTargetDependency */,
+				B610CDE81CDAA0BD007D7FBD /* PBXTargetDependency */,
 			);
 			name = "Whats Happening Tonight-Swift";
 			productName = ParseStarterProject;
@@ -290,8 +290,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B610CD761CBBC8BD007D7FBD /* Products */;
-					ProjectRef = B610CD751CBBC8BD007D7FBD /* OAuthSwift.xcodeproj */;
+					ProductGroup = B610CDD01CDAA03D007D7FBD /* Products */;
+					ProjectRef = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -302,53 +302,53 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B610CD801CBBC8BD007D7FBD /* OAuthSwift.framework */ = {
+		B610CDDA1CDAA03D007D7FBD /* OAuthSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OAuthSwift.framework;
-			remoteRef = B610CD7F1CBBC8BD007D7FBD /* PBXContainerItemProxy */;
+			remoteRef = B610CDD91CDAA03D007D7FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B610CD821CBBC8BD007D7FBD /* OAuthSwiftDemo.app */ = {
+		B610CDDC1CDAA03D007D7FBD /* OAuthSwiftDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = OAuthSwiftDemo.app;
-			remoteRef = B610CD811CBBC8BD007D7FBD /* PBXContainerItemProxy */;
+			remoteRef = B610CDDB1CDAA03D007D7FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B610CD841CBBC8BD007D7FBD /* OAuthSwift.framework */ = {
+		B610CDDE1CDAA03D007D7FBD /* OAuthSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OAuthSwift.framework;
-			remoteRef = B610CD831CBBC8BD007D7FBD /* PBXContainerItemProxy */;
+			remoteRef = B610CDDD1CDAA03D007D7FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B610CD861CBBC8BD007D7FBD /* OAuthSwiftOSXDemo.app */ = {
+		B610CDE01CDAA03D007D7FBD /* OAuthSwiftOSXDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = OAuthSwiftOSXDemo.app;
-			remoteRef = B610CD851CBBC8BD007D7FBD /* PBXContainerItemProxy */;
+			remoteRef = B610CDDF1CDAA03D007D7FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B610CD881CBBC8BD007D7FBD /* OAuthSwift.framework */ = {
+		B610CDE21CDAA03D007D7FBD /* OAuthSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OAuthSwift.framework;
-			remoteRef = B610CD871CBBC8BD007D7FBD /* PBXContainerItemProxy */;
+			remoteRef = B610CDE11CDAA03D007D7FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B610CD8A1CBBC8BD007D7FBD /* OAuthSwift.framework */ = {
+		B610CDE41CDAA03D007D7FBD /* OAuthSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = OAuthSwift.framework;
-			remoteRef = B610CD891CBBC8BD007D7FBD /* PBXContainerItemProxy */;
+			remoteRef = B610CDE31CDAA03D007D7FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B610CD8C1CBBC8BD007D7FBD /* OAuthSwiftTests.xctest */ = {
+		B610CDE61CDAA03D007D7FBD /* OAuthSwiftTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = OAuthSwiftTests.xctest;
-			remoteRef = B610CD8B1CBBC8BD007D7FBD /* PBXContainerItemProxy */;
+			remoteRef = B610CDE51CDAA03D007D7FBD /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -385,10 +385,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B610CD8E1CBD20DC007D7FBD /* PBXTargetDependency */ = {
+		B610CDE81CDAA0BD007D7FBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OAuthSwift;
-			targetProxy = B610CD8D1CBD20DC007D7FBD /* PBXContainerItemProxy */;
+			targetProxy = B610CDE71CDAA0BD007D7FBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -445,7 +445,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/danlevine/Downloads/ParseServerStarterProject 3/Resources/ParseStarterProject-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/danlevine/Documents/CMSI402/What Happening Tonight/Resources/HappeningTonight-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,7 +483,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/danlevine/Downloads/ParseServerStarterProject 3/Resources/ParseStarterProject-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/danlevine/Documents/CMSI402/What Happening Tonight/Resources/HappeningTonight-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
