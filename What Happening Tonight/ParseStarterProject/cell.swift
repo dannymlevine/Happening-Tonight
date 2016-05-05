@@ -1,10 +1,6 @@
 //
 //  cell.swift
-//  ParseStarterProject-Swift
-//
-//  Created by Dan Levine on 5/2/16.
-//  Copyright © 2016 Parse. All rights reserved.
-//
+//  Created by Dan Levine
 
 import Foundation
 import UIKit

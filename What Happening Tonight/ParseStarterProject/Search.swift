@@ -1,10 +1,6 @@
 //
 //  Search.swift
-//  ParseStarterProject-Swift
-//
-//  Created by Dan Levine on 5/1/16.
-//  Copyright © 2016 Parse. All rights reserved.
-//
+//  Created by Dan Levine
 
 import Foundation
 import UIKit
@@ -33,14 +29,15 @@ class Search: UIViewController{
             accessTokenSecret: "IYr6BoaRn35jmQcTS7xyXPaFl-M"
         )
         var params: [String: String] = [
-            "term" : "\""+venue+"\"",
             "location": "\""+place+"\"",
             "category_filter": "bars,danceclubs",
             "limit": "20"
             //"offset": "20"
         ]
         Businesses = []
-        if params["term"] != ""{
+        
+        if venue != ""{
+            params["term"] = "\""+venue+"\""
             params["category_filter"] = ""
         }
         

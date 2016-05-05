@@ -23,6 +23,9 @@
 		B610CD941CD74B46007D7FBD /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610CD931CD74B46007D7FBD /* Business.swift */; };
 		B610CD961CD866A1007D7FBD /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610CD951CD866A1007D7FBD /* cell.swift */; };
 		B610CD981CD9FE3D007D7FBD /* BarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610CD971CD9FE3D007D7FBD /* BarPage.swift */; };
+		B610CDEB1CDB9C86007D7FBD /* martini Glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B610CDEA1CDB9C86007D7FBD /* martini Glass.jpg */; };
+		B610CDF31CDBA43F007D7FBD /* rsz_martini_glass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B610CDF21CDBA43F007D7FBD /* rsz_martini_glass.jpg */; };
+		B610CDF51CDBC28F007D7FBD /* EditBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B610CDF41CDBC28F007D7FBD /* EditBar.swift */; };
 		B644C9681CA15B46004F0675 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B644C9661CA15B46004F0675 /* FBSDKCoreKit.framework */; };
 		B644C9691CA15B46004F0675 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B644C9671CA15B46004F0675 /* FBSDKLoginKit.framework */; };
 		B644C96F1CA15C7B004F0675 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B644C96E1CA15C7B004F0675 /* ParseUI.framework */; };
@@ -124,6 +127,9 @@
 		B610CD971CD9FE3D007D7FBD /* BarPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPage.swift; sourceTree = "<group>"; };
 		B610CDB61CDA9F72007D7FBD /* HappeningTonight-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HappeningTonight-Bridging-Header.h"; sourceTree = "<group>"; };
 		B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "OAuthSwift-master/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
+		B610CDEA1CDB9C86007D7FBD /* martini Glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "martini Glass.jpg"; sourceTree = "<group>"; };
+		B610CDF21CDBA43F007D7FBD /* rsz_martini_glass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rsz_martini_glass.jpg; sourceTree = "<group>"; };
+		B610CDF41CDBC28F007D7FBD /* EditBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBar.swift; sourceTree = "<group>"; };
 		B644C9661CA15B46004F0675 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		B644C9671CA15B46004F0675 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		B644C96E1CA15C7B004F0675 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
@@ -187,13 +193,16 @@
 			children = (
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
+				B610CDF41CDBC28F007D7FBD /* EditBar.swift */,
 				B610CD8F1CD70745007D7FBD /* Results.swift */,
 				B610CD951CD866A1007D7FBD /* cell.swift */,
 				B610CD971CD9FE3D007D7FBD /* BarPage.swift */,
 				B610CD931CD74B46007D7FBD /* Business.swift */,
 				B610CD911CD70BDD007D7FBD /* Search.swift */,
 				814C3AC61B69877600E307BB /* Main.storyboard */,
+				B610CDF21CDBA43F007D7FBD /* rsz_martini_glass.jpg */,
 				B644C9731CA3E21C004F0675 /* placeholder.jpg */,
+				B610CDEA1CDB9C86007D7FBD /* martini Glass.jpg */,
 				B6D011571CB2A24C00BD62D6 /* 035.png */,
 			);
 			path = ParseStarterProject;
@@ -359,9 +368,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
+				B610CDF31CDBA43F007D7FBD /* rsz_martini_glass.jpg in Resources */,
 				B644C9741CA3E21C004F0675 /* placeholder.jpg in Resources */,
 				B6D011581CB2A24C00BD62D6 /* 035.png in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
+				B610CDEB1CDB9C86007D7FBD /* martini Glass.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +386,7 @@
 				B610CD981CD9FE3D007D7FBD /* BarPage.swift in Sources */,
 				B610CD901CD70745007D7FBD /* Results.swift in Sources */,
 				B610CD961CD866A1007D7FBD /* cell.swift in Sources */,
+				B610CDF51CDBC28F007D7FBD /* EditBar.swift in Sources */,
 				B610CD921CD70BDD007D7FBD /* Search.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
 				B610CD941CD74B46007D7FBD /* Business.swift in Sources */,
