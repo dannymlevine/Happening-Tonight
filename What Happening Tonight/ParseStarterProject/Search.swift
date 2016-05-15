@@ -137,6 +137,7 @@ class Search: UIViewController{
     
     func textFieldShouldReturn(textField: UITextField!) -> Bool {
         location.resignFirstResponder()
+        venue.resignFirstResponder()
         return true
     }
     

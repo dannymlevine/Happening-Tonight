@@ -58,6 +58,18 @@ class EditBar:UIViewController{
 
     }
     
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField!) -> Bool {
+        self.attendance.resignFirstResponder()
+        self.coverCharge.resignFirstResponder()
+        self.waitTime.resignFirstResponder()
+        self.promotion.resignFirstResponder()
+        return true
+    }
+    
 
 
 

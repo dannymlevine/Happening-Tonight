@@ -31,6 +31,8 @@
 		B644C96F1CA15C7B004F0675 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B644C96E1CA15C7B004F0675 /* ParseUI.framework */; };
 		B644C9721CA16664004F0675 /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B644C9711CA16664004F0675 /* ParseFacebookUtilsV4.framework */; };
 		B644C9741CA3E21C004F0675 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B644C9731CA3E21C004F0675 /* placeholder.jpg */; };
+		B6AFCF5E1CDC177900FC55D2 /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B610CDDA1CDAA03D007D7FBD /* OAuthSwift.framework */; };
+		B6AFCF5F1CDC177900FC55D2 /* OAuthSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B610CDDA1CDAA03D007D7FBD /* OAuthSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B6D011581CB2A24C00BD62D6 /* 035.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D011571CB2A24C00BD62D6 /* 035.png */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +93,13 @@
 			remoteGlobalIDString = F43502791A6791B200038A29;
 			remoteInfo = OAuthSwift;
 		};
+		B6AFCF601CDC177900FC55D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B610CDCF1CDAA03D007D7FBD /* OAuthSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F43502791A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +109,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B6AFCF5F1CDC177900FC55D2 /* OAuthSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +155,7 @@
 			files = (
 				B60A89AF1CAAB63E00CC46A3 /* FactualSDK.framework in Frameworks */,
 				B644C96F1CA15C7B004F0675 /* ParseUI.framework in Frameworks */,
+				B6AFCF5E1CDC177900FC55D2 /* OAuthSwift.framework in Frameworks */,
 				81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */,
 				81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */,
 				81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */,
@@ -265,6 +276,7 @@
 			);
 			dependencies = (
 				B610CDE81CDAA0BD007D7FBD /* PBXTargetDependency */,
+				B6AFCF611CDC177900FC55D2 /* PBXTargetDependency */,
 			);
 			name = "Whats Happening Tonight-Swift";
 			productName = ParseStarterProject;
@@ -283,6 +295,7 @@
 				TargetAttributes = {
 					81BA81441A49DA1800E65899 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 69PSXLVGM3;
 					};
 				};
 			};
@@ -402,6 +415,11 @@
 			name = OAuthSwift;
 			targetProxy = B610CDE71CDAA0BD007D7FBD /* PBXContainerItemProxy */;
 		};
+		B6AFCF611CDC177900FC55D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = B6AFCF601CDC177900FC55D2 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -506,16 +524,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parse.happening-tonight";
 				PRODUCT_NAME = "Whats Happening Tonight-Swift";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -524,16 +546,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(SRCROOT)",
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.parse.happening-tonight";
 				PRODUCT_NAME = "Whats Happening Tonight-Swift";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
